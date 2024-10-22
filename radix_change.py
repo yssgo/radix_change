@@ -83,7 +83,8 @@ def addseparator(s,radix=10,decsep2="", partsize=0, padchar=''):
     else:
         psize = partsize
     return addsep(s,sep,sep2,psize,padchar=padchar)
-#end : from addsep.py
+
+# End: from addsep.py
 
 global _MAXBINFRAC
 global _rptstart, _rptstop
